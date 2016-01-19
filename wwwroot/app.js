@@ -90,7 +90,7 @@ function heartbeat() {
         lastScroll = currentScroll + distance;
         //console.log('st=' + lastScroll);
         container.scrollTop(lastScroll);
-        if (Math.abs(distance) > 4) alert('chopItemsStop=' + chopItemsStop + '\ndistance='+distance);
+        if (Math.abs(distance) > 4) console.log('chopItemsStop=' + chopItemsStop + '\ndistance='+distance);
     }
     fillDisplay();
 }
